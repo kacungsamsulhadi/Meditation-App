@@ -17,7 +17,7 @@ class DietRecomendation extends StatelessWidget {
             decoration: BoxDecoration(
               color: kBlueLightColor,
               image: DecorationImage(
-                image: AssetImage("assets/images/meditation_bg.png"),
+                image: AssetImage("assets/images/diet_bg.png"),
                 fit: BoxFit.fitWidth,
               ),
             ),

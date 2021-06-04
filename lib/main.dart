@@ -71,6 +71,7 @@ class HomeScreen extends StatelessWidget {
                     "Good Morning \nGais",
                     style: Theme.of(context)
                         .textTheme
+                        // ignore: deprecated_member_use
                         .display1
                         .copyWith(fontWeight: FontWeight.w900),
                   ),

@@ -36,6 +36,7 @@ class DetailsScreen extends StatelessWidget {
                       "Meditation",
                       style: Theme.of(context)
                           .textTheme
+                          // ignore: deprecated_member_use
                           .display1
                           .copyWith(fontWeight: FontWeight.w900),
                     ),
@@ -97,6 +98,7 @@ class DetailsScreen extends StatelessWidget {
                       "Meditation",
                       style: Theme.of(context)
                           .textTheme
+                          // ignore: deprecated_member_use
                           .title
                           .copyWith(fontWeight: FontWeight.bold),
                     ),
@@ -129,6 +131,7 @@ class DetailsScreen extends StatelessWidget {
                               children: <Widget>[
                                 Text(
                                   "Basic 2",
+                                  // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
                                 Text("Start your deepen you practice")
@@ -209,6 +212,7 @@ class SeassionCard extends StatelessWidget {
                     SizedBox(width: 10),
                     Text(
                       "Session $seassionNum",
+                      // ignore: deprecated_member_use
                       style: Theme.of(context).textTheme.subtitle,
                     )
                   ],

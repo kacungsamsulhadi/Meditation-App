@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:meditation_app/constants.dart';
+import 'package:meditation_app/subScreenDiet/session1.dart';
 import 'package:meditation_app/widgets/bottom_nav_bar.dart';
 //import 'package:meditation_app/widgets/search_bar.dart';
 
@@ -13,7 +14,7 @@ class DietRecomendation extends StatelessWidget {
       body: Stack(
         children: <Widget>[
           Container(
-            height: size.height * .45,
+            height: size.height * .28,
             decoration: BoxDecoration(
               color: kBlueLightColor,
               image: DecorationImage(
@@ -41,12 +42,6 @@ class DietRecomendation extends StatelessWidget {
                           .copyWith(fontWeight: FontWeight.w900),
                     ),
                     SizedBox(height: 10),
-                    Text(
-                      "10 Minutes, 12 Course",
-                      style:
-                          TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
-                    ),
-                    SizedBox(height: 10),
                     SizedBox(
                       width: size.width * .6, // it just take 60% of total width
                       child: Text(
@@ -65,7 +60,14 @@ class DietRecomendation extends StatelessWidget {
                           //session1
                           seassionNum: 1,
                           isDone: true,
-                          press: () {},
+                          press: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(builder: (context) {
+                                return IntermittentFasting();
+                              }),
+                            );
+                          },
                         ),
                         SeassionCard(
                           //session2
@@ -103,92 +105,6 @@ class DietRecomendation extends StatelessWidget {
                           .title
                           .copyWith(fontWeight: FontWeight.bold),
                     ),
-                    Container(
-                      margin: EdgeInsets.symmetric(vertical: 20),
-                      padding: EdgeInsets.all(10),
-                      height: 90,
-                      decoration: BoxDecoration(
-                        color: Colors.white,
-                        borderRadius: BorderRadius.circular(13),
-                        boxShadow: [
-                          BoxShadow(
-                            offset: Offset(0, 17),
-                            blurRadius: 23,
-                            spreadRadius: -13,
-                            color: kShadowColor,
-                          ),
-                        ],
-                      ),
-                      child: Row(
-                        children: <Widget>[
-                          SvgPicture.asset(
-                            "assets/icons/Meditation_women_small.svg",
-                          ),
-                          SizedBox(width: 20),
-                          Expanded(
-                            child: Column(
-                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: <Widget>[
-                                Text(
-                                  "Basic 2",
-                                  // ignore: deprecated_member_use
-                                  style: Theme.of(context).textTheme.subtitle,
-                                ),
-                                Text("Start your deepen you practice")
-                              ],
-                            ),
-                          ),
-                          Padding(
-                            padding: EdgeInsets.all(10),
-                            child: SvgPicture.asset("assets/icons/Lock.svg"),
-                          ),
-                        ],
-                      ),
-                    ),
-                    Container(
-                      margin: EdgeInsets.symmetric(vertical: 20),
-                      padding: EdgeInsets.all(10),
-                      height: 90,
-                      decoration: BoxDecoration(
-                        color: Colors.white,
-                        borderRadius: BorderRadius.circular(13),
-                        boxShadow: [
-                          BoxShadow(
-                            offset: Offset(0, 17),
-                            blurRadius: 23,
-                            spreadRadius: -13,
-                            color: kShadowColor,
-                          ),
-                        ],
-                      ),
-                      child: Row(
-                        children: <Widget>[
-                          SvgPicture.asset(
-                            "assets/icons/Meditation_women_small.svg",
-                          ),
-                          SizedBox(width: 20),
-                          Expanded(
-                            child: Column(
-                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: <Widget>[
-                                Text(
-                                  "Basic 3",
-                                  // ignore: deprecated_member_use
-                                  style: Theme.of(context).textTheme.subtitle,
-                                ),
-                                Text("Start your deepen you practice")
-                              ],
-                            ),
-                          ),
-                          Padding(
-                            padding: EdgeInsets.all(10),
-                            child: SvgPicture.asset("assets/icons/Lock.svg"),
-                          ),
-                        ],
-                      ),
-                    )
                   ],
                 ),
               ),

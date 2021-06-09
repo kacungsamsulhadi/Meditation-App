@@ -89,7 +89,7 @@ class IntermittentFasting extends StatelessWidget {
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Cara melakukan intermittent fasting yang pertama, yaitu puasa selama 16 jam sehari. Berpuasa selama 16 jam sehari dengan waktu makan 8 jam atau biasa disebut dengan metode 16:8. Selama diet, wanita bisa berpuasa selama 14 jam setiap hari, sedangkan pria berpuasa selama 16 jam.")
+                                Text("Berpuasa selama 16 jam sehari dengan waktu makan 8 jam atau biasa disebut dengan metode 16:8. Selama diet, wanita bisa berpuasa selama 14 jam setiap hari, sedangkan pria berpuasa selama 16 jam.")
                               ],
                             ),
                           ),

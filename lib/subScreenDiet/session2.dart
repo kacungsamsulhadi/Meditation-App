@@ -85,11 +85,11 @@ class DietVegan extends StatelessWidget {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: <Widget>[
                                 Text(
-                                  "Puasa 16 Jam Sehari",
+                                  "Pilih Sayuran Sebagai Menu Utama",
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Cara melakukan intermittent fasting yang pertama, yaitu puasa selama 16 jam sehari. Berpuasa selama 16 jam sehari dengan waktu makan 8 jam atau biasa disebut dengan metode 16:8. Selama diet, wanita bisa berpuasa selama 14 jam setiap hari, sedangkan pria berpuasa selama 16 jam.")
+                                Text("Makanan enak tidak melulu hidangan daging, karena hidangan nabati juga punya cita rasa yang lezat jika diolah dengan benar. Sebagai vegan, Anda harus terbiasa untuk menjadikan sayur-sayuran sebagai menu utama makanan. Pilih sayuran yang dapat menjaga kalori Anda dan kaya akan serat.")
                               ],
                             ),
                           ),
@@ -122,11 +122,11 @@ class DietVegan extends StatelessWidget {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: <Widget>[
                                 Text(
-                                  "Puasa Dua Hari dalam Seminggu",
+                                  "Buat Variasi Makanan",
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Metode puasa dua hari dalam seminggu atau diet 5:2, menyediakan lima hari dalam seminggu untuk makan normal seperti biasa. Sisanya, Anda harus berpuasa dan membatasi 500-600 kalori saja untuk dikonsumsi selama dua hari itu.")
+                                Text("Meski hanya boleh memakan makanan vegetarian, tetapi Anda tetap harus memperhatikan keseimbangan makanan sebagaimana makanan sehat yang ideal. Kalau bisa, di dalam satu hidangan terdapat banyak warna sayur dan buah.")
                               ],
                             ),
                           ),
@@ -159,11 +159,11 @@ class DietVegan extends StatelessWidget {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: <Widget>[
                                 Text(
-                                  "Puasa Selang-Seling",
+                                  "Perbanyak Zat Besi",
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Puasa selang-seling atau dalam Islam disebut dengan puasa Daud, dianggap efektif untuk menurunkan berat badan. Metode ini menyatakan bahwa seseorang hanya diperbolehkan makan sebanyak 25 persen dari konsumsi normal kalori hariannya. Meski begitu, ada juga yang menyatakan bahwa membolehkan 500 kalori saja per harinya.")
+                                Text("Protein hewani seperti daging dan ayam merupakan sumber zat besi terbaik. Seorang began masih bisa memperoleh mineral ini dari sayuran hijau dan kacang-kacangan. Namun, zat besi dari sumber nabati tidak mudah diserap. Untuk itu, Anda dapat mengonsumsi makanan bervitamin C untuk membantu meningkatkan penyerapan.")
                               ],
                             ),
                           ),
@@ -196,11 +196,11 @@ class DietVegan extends StatelessWidget {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: <Widget>[
                                 Text(
-                                  "Puasa 14 Jam Sehari",
+                                  "Jaga Konsumsi Vitamin B12",
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Metode intermittent fasting selanjutnya, yaitu puasa selama 14 jam sehari.  Biasanya, cara ini dilakukan oleh para pemula yang ingin melakukan intermitten fasting. Puasa selama 10-16 jam dapat membuat tubuh mengubah cadangan lemaknya menjadi energi dan melepaskan keton ke dalam aliran darah.")
+                                Text("Vitamin B12 adalah vitamin yang memiliki fungsi penting untuk mengubah makanan menjadi energi yang nantinya akan membantu fungsi otak. Jenis vitamin B12 paling banyak ditemukan pada makanan hewani, seperti daging, ikan, unggas, telur, dan olahan susu.")
                               ],
                             ),
                           ),

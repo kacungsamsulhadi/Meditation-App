@@ -3,6 +3,8 @@ import 'package:flutter_svg/svg.dart';
 import 'package:meditation_app/constants.dart';
 import 'package:meditation_app/subScreenDiet/session1.dart';
 import 'package:meditation_app/subScreenDiet/session2.dart';
+import 'package:meditation_app/subScreenDiet/session3.dart';
+import 'package:meditation_app/subScreenDiet/session4.dart';
 import 'package:meditation_app/widgets/bottom_nav_bar.dart';
 //import 'package:meditation_app/widgets/search_bar.dart';
 
@@ -85,12 +87,26 @@ class DietRecomendation extends StatelessWidget {
                         SeassionCard(
                           //session3
                           seassionNum: 3,
-                          press: () {},
+                          press: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(builder: (context) {
+                                return DietVegetarian();
+                              }),
+                            );
+                            },
                         ),
                         SeassionCard(
                           //session4
                           seassionNum: 4,
-                          press: () {},
+                          press: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(builder: (context) {
+                                return DietMediterani();
+                              }),
+                            );
+                          },
                         ),
                         SeassionCard(
                           //session5

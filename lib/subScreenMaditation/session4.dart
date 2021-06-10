@@ -1,14 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:meditation_app/constants.dart';
-import 'package:meditation_app/subScreenMaditation/session1.dart';
-import 'package:meditation_app/subScreenMaditation/session2.dart';
-import 'package:meditation_app/subScreenMaditation/session3.dart';
-import 'package:meditation_app/subScreenMaditation/session4.dart';
 import 'package:meditation_app/widgets/bottom_nav_bar.dart';
-//import 'package:meditation_app/widgets/search_bar.dart';
 
-class DetailScreen extends StatelessWidget {
+class MeditasiTonglen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;
@@ -17,11 +12,11 @@ class DetailScreen extends StatelessWidget {
       body: Stack(
         children: <Widget>[
           Container(
-            height: size.height * .45,
+            height: size.height * .30,
             decoration: BoxDecoration(
               color: kBlueLightColor,
               image: DecorationImage(
-                image: AssetImage("assets/images/meditation_bg.png"),
+                image: AssetImage("assets/images/diet_bg.png"),
                 fit: BoxFit.fitWidth,
               ),
             ),
@@ -37,16 +32,16 @@ class DetailScreen extends StatelessWidget {
                       height: size.height * 0.05,
                     ),
                     Text(
-                      "Meditation Practice",
+                      "Jenis diet yang pertama",
                       style: Theme.of(context)
                           .textTheme
                           // ignore: deprecated_member_use
                           .display1
-                          .copyWith(fontWeight: FontWeight.w900),
+                          .copyWith(fontWeight: FontWeight.bold, fontSize: 25),
                     ),
                     SizedBox(height: 10),
                     Text(
-                      "10 Minutes, 12 Course",
+                      "Intermittent Fasting",
                       style:
                           TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
                     ),
@@ -54,91 +49,20 @@ class DetailScreen extends StatelessWidget {
                     SizedBox(
                       width: size.width * .6, // it just take 60% of total width
                       child: Text(
-                        "Relaksasi yang dilakukan dengan cara melatih konsentrasi dan fokus pikiran untuk mendapatkan perasaan tenang dan damai. \n",
+                        "Konsep diet ini berpusat pada siklus antara berpuasa dan makan. Diet ini tidak melarang mengonsumsi makan tertentu dan lebih ke mengontrol jam makan. \n",
                         style: TextStyle(
                             color: Colors.black,
                             fontSize: 15,
                             fontWeight: FontWeight.bold),
                       ),
                     ),
-                    Wrap(
-                      spacing: 20,
-                      runSpacing: 20,
-                      children: <Widget>[
-                        SeassionCard(
-                          //session1
-                          seassionNum: 1,
-                          isDone: true,
-                          press: () {
-                            Navigator.push(
-                              context,
-                              MaterialPageRoute(builder: (context) {
-                                return MeditasiVipassana();
-                              }),
-                            );
-                          },
-                        ),
-                        SeassionCard(
-                          //session2
-                          seassionNum: 2,
-                          press: () {
-                            Navigator.push(
-                              context,
-                              MaterialPageRoute(builder: (context) {
-                                return MeditasiZazen();
-                              }),
-                            );
-                          },
-                        ),
-                        SeassionCard(
-                          //session3
-                          seassionNum: 3,
-                          press: () {
-                            Navigator.push(
-                              context,
-                              MaterialPageRoute(builder: (context) {
-                                return MeditasiChakra();
-                              }),
-                            );
-                          },
-                        ),
-                        SeassionCard(
-                          //session4
-                          seassionNum: 4,
-                          press: () {
-                            Navigator.push(
-                              context,
-                              MaterialPageRoute(builder: (context) {
-                                return MeditasiTonglen();
-                              }),
-                            );
-                          },
-                        ),
-                        SeassionCard(
-                          //session5
-                          seassionNum: 5,
-                          press: () {},
-                        ),
-                        SeassionCard(
-                          //session6
-                          seassionNum: 6,
-                          press: () {},
-                        ),
-                      ],
-                    ),
-                    SizedBox(height: 20),
-                    Text(
-                      "Diet Recomendation",
-                      style: Theme.of(context)
-                          .textTheme
-                          // ignore: deprecated_member_use
-                          .title
-                          .copyWith(fontWeight: FontWeight.bold),
-                    ),
+                    Text("cara melakukan intermittent fasting yang aman dan efektif, di antaranya sebagai berikut:",style:
+                          TextStyle(fontSize: 15),),
+                    SizedBox(height: 0),
                     Container(
                       margin: EdgeInsets.symmetric(vertical: 20),
                       padding: EdgeInsets.all(10),
-                      height: 90,
+                      height: 150,
                       decoration: BoxDecoration(
                         color: Colors.white,
                         borderRadius: BorderRadius.circular(13),
@@ -153,9 +77,7 @@ class DetailScreen extends StatelessWidget {
                       ),
                       child: Row(
                         children: <Widget>[
-                          SvgPicture.asset(
-                            "assets/icons/Meditation_women_small.svg",
-                          ),
+                         
                           SizedBox(width: 20),
                           Expanded(
                             child: Column(
@@ -163,25 +85,21 @@ class DetailScreen extends StatelessWidget {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: <Widget>[
                                 Text(
-                                  "Basic 2",
+                                  "Puasa 16 Jam Sehari",
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Start your deepen you practice")
+                                Text("Berpuasa selama 16 jam sehari dengan waktu makan 8 jam atau biasa disebut dengan metode 16:8. Selama diet, wanita bisa berpuasa selama 14 jam setiap hari, sedangkan pria berpuasa selama 16 jam.")
                               ],
                             ),
-                          ),
-                          Padding(
-                            padding: EdgeInsets.all(10),
-                            child: SvgPicture.asset("assets/icons/Lock.svg"),
                           ),
                         ],
                       ),
                     ),
                     Container(
-                      margin: EdgeInsets.symmetric(vertical: 20),
+                      margin: EdgeInsets.symmetric(vertical: 0),
                       padding: EdgeInsets.all(10),
-                      height: 90,
+                      height: 150,
                       decoration: BoxDecoration(
                         color: Colors.white,
                         borderRadius: BorderRadius.circular(13),
@@ -196,9 +114,7 @@ class DetailScreen extends StatelessWidget {
                       ),
                       child: Row(
                         children: <Widget>[
-                          SvgPicture.asset(
-                            "assets/icons/Meditation_women_small.svg",
-                          ),
+                          
                           SizedBox(width: 20),
                           Expanded(
                             child: Column(
@@ -206,17 +122,87 @@ class DetailScreen extends StatelessWidget {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: <Widget>[
                                 Text(
-                                  "Basic 3",
+                                  "Puasa Dua Hari dalam Seminggu",
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Start your deepen you practice")
+                                Text("Metode puasa dua hari dalam seminggu atau diet 5:2, menyediakan lima hari dalam seminggu untuk makan normal seperti biasa. Sisanya, Anda harus berpuasa dan membatasi 500-600 kalori saja untuk dikonsumsi selama dua hari itu.")
                               ],
                             ),
                           ),
-                          Padding(
-                            padding: EdgeInsets.all(10),
-                            child: SvgPicture.asset("assets/icons/Lock.svg"),
+                        ],
+                      ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.symmetric(vertical: 20),
+                      padding: EdgeInsets.all(10),
+                      height: 170,
+                      decoration: BoxDecoration(
+                        color: Colors.white,
+                        borderRadius: BorderRadius.circular(13),
+                        boxShadow: [
+                          BoxShadow(
+                            offset: Offset(0, 17),
+                            blurRadius: 23,
+                            spreadRadius: -13,
+                            color: kShadowColor,
+                          ),
+                        ],
+                      ),
+                      child: Row(
+                        children: <Widget>[
+                          
+                          SizedBox(width: 20),
+                          Expanded(
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: <Widget>[
+                                Text(
+                                  "Puasa Selang-Seling",
+                                  // ignore: deprecated_member_use
+                                  style: Theme.of(context).textTheme.subtitle,
+                                ),
+                                Text("Puasa selang-seling atau dalam Islam disebut dengan puasa Daud, dianggap efektif untuk menurunkan berat badan. Metode ini menyatakan bahwa seseorang hanya diperbolehkan makan sebanyak 25 persen dari konsumsi normal kalori hariannya. Meski begitu, ada juga yang menyatakan bahwa membolehkan 500 kalori saja per harinya.")
+                              ],
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.symmetric(vertical: 15),
+                      padding: EdgeInsets.all(10),
+                      height: 170,
+                      decoration: BoxDecoration(
+                        color: Colors.white,
+                        borderRadius: BorderRadius.circular(13),
+                        boxShadow: [
+                          BoxShadow(
+                            offset: Offset(0, 17),
+                            blurRadius: 23,
+                            spreadRadius: -13,
+                            color: kShadowColor,
+                          ),
+                        ],
+                      ),
+                      child: Row(
+                        children: <Widget>[
+                          
+                          SizedBox(width: 20),
+                          Expanded(
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: <Widget>[
+                                Text(
+                                  "Puasa 14 Jam Sehari",
+                                  // ignore: deprecated_member_use
+                                  style: Theme.of(context).textTheme.subtitle,
+                                ),
+                                Text("Metode intermittent fasting selanjutnya, yaitu puasa selama 14 jam sehari.  Biasanya, cara ini dilakukan oleh para pemula yang ingin melakukan intermitten fasting. Puasa selama 10-16 jam dapat membuat tubuh mengubah cadangan lemaknya menjadi energi dan melepaskan keton ke dalam aliran darah.")
+                              ],
+                            ),
                           ),
                         ],
                       ),

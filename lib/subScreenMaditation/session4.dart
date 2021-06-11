@@ -32,7 +32,7 @@ class MeditasiTonglen extends StatelessWidget {
                       height: size.height * 0.05,
                     ),
                     Text(
-                      "Jenis diet yang pertama",
+                      "Jenis meditasi yang keempat",
                       style: Theme.of(context)
                           .textTheme
                           // ignore: deprecated_member_use
@@ -41,7 +41,7 @@ class MeditasiTonglen extends StatelessWidget {
                     ),
                     SizedBox(height: 10),
                     Text(
-                      "Intermittent Fasting",
+                      "Meditasi Tonglen",
                       style:
                           TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
                     ),
@@ -49,14 +49,14 @@ class MeditasiTonglen extends StatelessWidget {
                     SizedBox(
                       width: size.width * .6, // it just take 60% of total width
                       child: Text(
-                        "Konsep diet ini berpusat pada siklus antara berpuasa dan makan. Diet ini tidak melarang mengonsumsi makan tertentu dan lebih ke mengontrol jam makan. \n",
+                        "Meditasi jenis ini dapat membantu kamu terhubung dengan apa yang membuat kamu menderita, menerima rasa sakit, dan membebaskan kamu darinya.\n",
                         style: TextStyle(
                             color: Colors.black,
                             fontSize: 15,
                             fontWeight: FontWeight.bold),
                       ),
                     ),
-                    Text("cara melakukan intermittent fasting yang aman dan efektif, di antaranya sebagai berikut:",style:
+                    Text("cara melakukan Meditasi yang aman dan efektif, di antaranya sebagai berikut:",style:
                           TextStyle(fontSize: 15),),
                     SizedBox(height: 0),
                     Container(
@@ -85,11 +85,11 @@ class MeditasiTonglen extends StatelessWidget {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: <Widget>[
                                 Text(
-                                  "Puasa 16 Jam Sehari",
+                                  "Menghidupkan sifat Altruism",
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Berpuasa selama 16 jam sehari dengan waktu makan 8 jam atau biasa disebut dengan metode 16:8. Selama diet, wanita bisa berpuasa selama 14 jam setiap hari, sedangkan pria berpuasa selama 16 jam.")
+                                Text("Memang kalau kita telah mengerti bagaimana cara atau metode melakukan Meditasi Tong Len ini - mungkin saja timbul  kesan bahwa metode yang dipakai memang dapat dikatakan ekstrem - dengan catatan bahwa metode ekstrem ini dilakukan semata-mata dengan tujuan yang sangat positip dan sungguh baik. ")
                               ],
                             ),
                           ),
@@ -122,11 +122,11 @@ class MeditasiTonglen extends StatelessWidget {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: <Widget>[
                                 Text(
-                                  "Puasa Dua Hari dalam Seminggu",
+                                  "Tong Len dilakukan dengan pernafasan",
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Metode puasa dua hari dalam seminggu atau diet 5:2, menyediakan lima hari dalam seminggu untuk makan normal seperti biasa. Sisanya, Anda harus berpuasa dan membatasi 500-600 kalori saja untuk dikonsumsi selama dua hari itu.")
+                                Text("disertai pelafalan 3 suku kata sakral : OM - AH dan HUM.  Dalam konteks Meditasi Tong Len ini - OM , AH  dan HUM  berfungsi sebagai Pembersih Batin. ")
                               ],
                             ),
                           ),
@@ -159,11 +159,11 @@ class MeditasiTonglen extends StatelessWidget {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: <Widget>[
                                 Text(
-                                  "Puasa Selang-Seling",
+                                  "meditator duduk dengan punggung tegak",
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Puasa selang-seling atau dalam Islam disebut dengan puasa Daud, dianggap efektif untuk menurunkan berat badan. Metode ini menyatakan bahwa seseorang hanya diperbolehkan makan sebanyak 25 persen dari konsumsi normal kalori hariannya. Meski begitu, ada juga yang menyatakan bahwa membolehkan 500 kalori saja per harinya.")
+                                Text("Tarik napas panjang - ucapkan  OM  - sambil bervisualisasi bahwa kita menarik seluruh penderitaan makhluk yang ada di 6 Alam Kehidupan.")
                               ],
                             ),
                           ),
@@ -196,11 +196,11 @@ class MeditasiTonglen extends StatelessWidget {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: <Widget>[
                                 Text(
-                                  "Puasa 14 Jam Sehari",
+                                  "Napas masuk ",
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Metode intermittent fasting selanjutnya, yaitu puasa selama 14 jam sehari.  Biasanya, cara ini dilakukan oleh para pemula yang ingin melakukan intermitten fasting. Puasa selama 10-16 jam dapat membuat tubuh mengubah cadangan lemaknya menjadi energi dan melepaskan keton ke dalam aliran darah.")
+                                Text("kita turunkan ke perut bagian bawah sambil melafal  AH  - dengan visualisasi mengolah seluruh penderitaan makhluk tersebut menjadi suatu enerji positip - menjadi pancaran Cintakasih dan Belaskasih. ")
                               ],
                             ),
                           ),

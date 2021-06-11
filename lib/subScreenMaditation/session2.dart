@@ -32,7 +32,7 @@ class MeditasiZazen extends StatelessWidget {
                       height: size.height * 0.05,
                     ),
                     Text(
-                      "Jenis diet yang pertama",
+                      "Jenis meditasi yang kedua",
                       style: Theme.of(context)
                           .textTheme
                           // ignore: deprecated_member_use
@@ -41,7 +41,7 @@ class MeditasiZazen extends StatelessWidget {
                     ),
                     SizedBox(height: 10),
                     Text(
-                      "Intermittent Fasting",
+                      "Meditasi Zazen",
                       style:
                           TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
                     ),
@@ -49,14 +49,14 @@ class MeditasiZazen extends StatelessWidget {
                     SizedBox(
                       width: size.width * .6, // it just take 60% of total width
                       child: Text(
-                        "Konsep diet ini berpusat pada siklus antara berpuasa dan makan. Diet ini tidak melarang mengonsumsi makan tertentu dan lebih ke mengontrol jam makan. \n",
+                        "Jenis meditasi berikutnya adalah meditasi zazen yang kerap disebut juga Zen, meditasi ini berfokus pada pernapasan.  \n",
                         style: TextStyle(
                             color: Colors.black,
                             fontSize: 15,
                             fontWeight: FontWeight.bold),
                       ),
                     ),
-                    Text("cara melakukan intermittent fasting yang aman dan efektif, di antaranya sebagai berikut:",style:
+                    Text("cara melakukan Meditasi yang aman dan efektif, di antaranya sebagai berikut:",style:
                           TextStyle(fontSize: 15),),
                     SizedBox(height: 0),
                     Container(
@@ -85,11 +85,11 @@ class MeditasiZazen extends StatelessWidget {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: <Widget>[
                                 Text(
-                                  "Puasa 16 Jam Sehari",
+                                  "Mengurangi rasa bersalah",
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Berpuasa selama 16 jam sehari dengan waktu makan 8 jam atau biasa disebut dengan metode 16:8. Selama diet, wanita bisa berpuasa selama 14 jam setiap hari, sedangkan pria berpuasa selama 16 jam.")
+                                Text("Perasaan ini dibentuk dalam diri kita semenjak kecil, tujuannya adalah untuk menjauhkan diri kita dari perilaku-perilaku yang dianggap tidak baik.")
                               ],
                             ),
                           ),
@@ -122,11 +122,11 @@ class MeditasiZazen extends StatelessWidget {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: <Widget>[
                                 Text(
-                                  "Puasa Dua Hari dalam Seminggu",
+                                  "Memunculkan ketenangan",
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Metode puasa dua hari dalam seminggu atau diet 5:2, menyediakan lima hari dalam seminggu untuk makan normal seperti biasa. Sisanya, Anda harus berpuasa dan membatasi 500-600 kalori saja untuk dikonsumsi selama dua hari itu.")
+                                Text("Latihan pernapasan tentu akan membuat kita menjadi rileks. Mungkin, pikiran Anda diliputi oleh kecemasan akan rencana-rencana di masa depan, rasa lelah dari kegiatan yang terlalu padat, dan kekhawatiran tentang hal-hal yang sebenarnya tidak perlu.")
                               ],
                             ),
                           ),
@@ -159,11 +159,11 @@ class MeditasiZazen extends StatelessWidget {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: <Widget>[
                                 Text(
-                                  "Puasa Selang-Seling",
+                                  "Membantu menentukan prioritas",
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Puasa selang-seling atau dalam Islam disebut dengan puasa Daud, dianggap efektif untuk menurunkan berat badan. Metode ini menyatakan bahwa seseorang hanya diperbolehkan makan sebanyak 25 persen dari konsumsi normal kalori hariannya. Meski begitu, ada juga yang menyatakan bahwa membolehkan 500 kalori saja per harinya.")
+                                Text("Seperti yang sudah dijelaskan di atas, manfaat dari meditasi adalah membantu mengendalikan arah pikiran, membuat Anda fokus. Hal ini juga dikuatkan oleh penelitian yang dipublikasikan di Psychological Science pada tahun 2010.")
                               ],
                             ),
                           ),
@@ -196,11 +196,11 @@ class MeditasiZazen extends StatelessWidget {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: <Widget>[
                                 Text(
-                                  "Puasa 14 Jam Sehari",
+                                  "Meningkatkan kualitas kehidupan seks Anda",
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Metode intermittent fasting selanjutnya, yaitu puasa selama 14 jam sehari.  Biasanya, cara ini dilakukan oleh para pemula yang ingin melakukan intermitten fasting. Puasa selama 10-16 jam dapat membuat tubuh mengubah cadangan lemaknya menjadi energi dan melepaskan keton ke dalam aliran darah.")
+                                Text("Penelitian yang dipublikasikan pada jurnal Psychosomatic Medicine pada 2011, yang dikutip Livescience, menemukan bahwa perempuan yang melakukan latihan meditasi dapat meningkatkan pengalaman seksualnya.")
                               ],
                             ),
                           ),

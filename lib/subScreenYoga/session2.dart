@@ -32,7 +32,7 @@ class VinyasaYoga extends StatelessWidget {
                       height: size.height * 0.05,
                     ),
                     Text(
-                      "Jenis diet yang pertama",
+                      "Jenis Yoga yang kedua",
                       style: Theme.of(context)
                           .textTheme
                           // ignore: deprecated_member_use
@@ -41,7 +41,7 @@ class VinyasaYoga extends StatelessWidget {
                     ),
                     SizedBox(height: 10),
                     Text(
-                      "Intermittent Fasting",
+                      "Vinyasa Yoga",
                       style:
                           TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
                     ),
@@ -49,14 +49,14 @@ class VinyasaYoga extends StatelessWidget {
                     SizedBox(
                       width: size.width * .6, // it just take 60% of total width
                       child: Text(
-                        "Konsep diet ini berpusat pada siklus antara berpuasa dan makan. Diet ini tidak melarang mengonsumsi makan tertentu dan lebih ke mengontrol jam makan. \n",
+                        "adalah melakukan pose-pose dalam yoga dengan pernapasan yang sesuai. Antara satu pose dan lainnya harus mengalir sehingga jangan kaget jika gerakan-gerakannya menjadi cepat. \n",
                         style: TextStyle(
                             color: Colors.black,
                             fontSize: 15,
                             fontWeight: FontWeight.bold),
                       ),
                     ),
-                    Text("cara melakukan intermittent fasting yang aman dan efektif, di antaranya sebagai berikut:",style:
+                    Text("cara melakukan Yoga yang aman dan efektif, di antaranya sebagai berikut:",style:
                           TextStyle(fontSize: 15),),
                     SizedBox(height: 0),
                     Container(
@@ -85,11 +85,11 @@ class VinyasaYoga extends StatelessWidget {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: <Widget>[
                                 Text(
-                                  "Puasa 16 Jam Sehari",
+                                  "Posisikan plank",
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Berpuasa selama 16 jam sehari dengan waktu makan 8 jam atau biasa disebut dengan metode 16:8. Selama diet, wanita bisa berpuasa selama 14 jam setiap hari, sedangkan pria berpuasa selama 16 jam.")
+                                Text("Mulailah dengan posisi plank di mana telapak tangan dan jari-jari kaki menempel pada matras untuk menopang tubuh. Pastikan juga kedua lengan lurus, dan pinggul sejajar dengan bahu hingga membentuk garis lurus dari kepala hingga kaki.")
                               ],
                             ),
                           ),
@@ -122,11 +122,11 @@ class VinyasaYoga extends StatelessWidget {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: <Widget>[
                                 Text(
-                                  "Puasa Dua Hari dalam Seminggu",
+                                  "Turunkan lutut, dada, dan dagu",
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Metode puasa dua hari dalam seminggu atau diet 5:2, menyediakan lima hari dalam seminggu untuk makan normal seperti biasa. Sisanya, Anda harus berpuasa dan membatasi 500-600 kalori saja untuk dikonsumsi selama dua hari itu.")
+                                Text("Hembuskan napas untuk menurunkan lutut, dada, dan dagu ke matras. Jangan sampai bokong Anda turun, dan siku harus menekuk lurus ke belakang di sisi tubuh. Pose ini baik untuk tulang punggung dan memperkuat lengan Anda.")
                               ],
                             ),
                           ),
@@ -159,11 +159,11 @@ class VinyasaYoga extends StatelessWidget {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: <Widget>[
                                 Text(
-                                  "Puasa Selang-Seling",
+                                  "Cobra pose",
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Puasa selang-seling atau dalam Islam disebut dengan puasa Daud, dianggap efektif untuk menurunkan berat badan. Metode ini menyatakan bahwa seseorang hanya diperbolehkan makan sebanyak 25 persen dari konsumsi normal kalori hariannya. Meski begitu, ada juga yang menyatakan bahwa membolehkan 500 kalori saja per harinya.")
+                                Text("Tarik napas dan ubah menjadi posisi cobra di mana tangan tetap pada posisi sebelumnya. Namun, turunkan pinggul dan bokong ke matras sehingga dada terangkat.")
                               ],
                             ),
                           ),
@@ -196,11 +196,11 @@ class VinyasaYoga extends StatelessWidget {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: <Widget>[
                                 Text(
-                                  "Puasa 14 Jam Sehari",
+                                  "Downward facing dog",
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Metode intermittent fasting selanjutnya, yaitu puasa selama 14 jam sehari.  Biasanya, cara ini dilakukan oleh para pemula yang ingin melakukan intermitten fasting. Puasa selama 10-16 jam dapat membuat tubuh mengubah cadangan lemaknya menjadi energi dan melepaskan keton ke dalam aliran darah.")
+                                Text("Hembuskan napas dan angkat tubuh Anda di mana bokong berada dalam posisi yang paling tinggi. Bertumpulah pada telapak tangan dan telapak kaki yang menempel pada matras.")
                               ],
                             ),
                           ),

@@ -32,7 +32,7 @@ class IyengarYoga extends StatelessWidget {
                       height: size.height * 0.05,
                     ),
                     Text(
-                      "Jenis diet yang pertama",
+                      "Jenis Yoga yang ketiga",
                       style: Theme.of(context)
                           .textTheme
                           // ignore: deprecated_member_use
@@ -41,7 +41,7 @@ class IyengarYoga extends StatelessWidget {
                     ),
                     SizedBox(height: 10),
                     Text(
-                      "Intermittent Fasting",
+                      "Iyengar Yoga",
                       style:
                           TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
                     ),
@@ -49,14 +49,14 @@ class IyengarYoga extends StatelessWidget {
                     SizedBox(
                       width: size.width * .6, // it just take 60% of total width
                       child: Text(
-                        "Konsep diet ini berpusat pada siklus antara berpuasa dan makan. Diet ini tidak melarang mengonsumsi makan tertentu dan lebih ke mengontrol jam makan. \n",
+                        "iyengar yoga pertama kali diperkenalkan oleh B. K. S. Iyengar. Jenis yoga yang satu ini banyak melibatkan keseimbangan, fleksibilitas, dan kekuatan tubuh dengan melakukan pose berpostur tepat. \n",
                         style: TextStyle(
                             color: Colors.black,
                             fontSize: 15,
                             fontWeight: FontWeight.bold),
                       ),
                     ),
-                    Text("cara melakukan intermittent fasting yang aman dan efektif, di antaranya sebagai berikut:",style:
+                    Text("cara melakukan Yoga yang aman dan efektif, di antaranya sebagai berikut:",style:
                           TextStyle(fontSize: 15),),
                     SizedBox(height: 0),
                     Container(
@@ -85,11 +85,11 @@ class IyengarYoga extends StatelessWidget {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: <Widget>[
                                 Text(
-                                  "Puasa 16 Jam Sehari",
+                                  "Posenya lebih kompleks. ",
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Berpuasa selama 16 jam sehari dengan waktu makan 8 jam atau biasa disebut dengan metode 16:8. Selama diet, wanita bisa berpuasa selama 14 jam setiap hari, sedangkan pria berpuasa selama 16 jam.")
+                                Text(" Iyengar yoga  membutuhkan kemahiran dan fleksibilitas yang lebih dibanding dengan jenis yoga yang lain. Seringkali, asana harus diajarkan dan dibimbing secara ketat oleh seorang guru yang terlatih.")
                               ],
                             ),
                           ),
@@ -122,11 +122,11 @@ class IyengarYoga extends StatelessWidget {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: <Widget>[
                                 Text(
-                                  "Puasa Dua Hari dalam Seminggu",
+                                  "Waktu Pose Yang lama",
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Metode puasa dua hari dalam seminggu atau diet 5:2, menyediakan lima hari dalam seminggu untuk makan normal seperti biasa. Sisanya, Anda harus berpuasa dan membatasi 500-600 kalori saja untuk dikonsumsi selama dua hari itu.")
+                                Text("Ketika berlatih Iyengar yoga, Anda dituntut untuk melakukan satu pose lebih lama dibanding ketika Anda melakukan pose yang sama pada jenis yoga yang lain.")
                               ],
                             ),
                           ),
@@ -159,11 +159,11 @@ class IyengarYoga extends StatelessWidget {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: <Widget>[
                                 Text(
-                                  "Puasa Selang-Seling",
+                                  "teknik pernapasan mendalam",
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Puasa selang-seling atau dalam Islam disebut dengan puasa Daud, dianggap efektif untuk menurunkan berat badan. Metode ini menyatakan bahwa seseorang hanya diperbolehkan makan sebanyak 25 persen dari konsumsi normal kalori hariannya. Meski begitu, ada juga yang menyatakan bahwa membolehkan 500 kalori saja per harinya.")
+                                Text("Pada beberapa jenis yoga lain, pranayama diajarkan segera setelah berlatih asana. Tetapi dalam Iyengar yoga, Mahaguru  BKS Iyengar menekankan bahwa seseorang baru bisa belajar pranayama hanya setelah mereka  menguasai asana.")
                               ],
                             ),
                           ),
@@ -196,11 +196,11 @@ class IyengarYoga extends StatelessWidget {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: <Widget>[
                                 Text(
-                                  "Puasa 14 Jam Sehari",
+                                  "Menggunakan alat bantu",
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Metode intermittent fasting selanjutnya, yaitu puasa selama 14 jam sehari.  Biasanya, cara ini dilakukan oleh para pemula yang ingin melakukan intermitten fasting. Puasa selama 10-16 jam dapat membuat tubuh mengubah cadangan lemaknya menjadi energi dan melepaskan keton ke dalam aliran darah.")
+                                Text("Mahaguru BKS Iyengar menekankan keselarasan dan ketepatan dari semua bagian tubuh saat melakukan asana. Untuk memfasilitasi ini, dia mengembangkan beberapa alat  seperti yoga blok, kursi, selimut dan belt dan tali khusus")
                               ],
                             ),
                           ),
